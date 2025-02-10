@@ -57,7 +57,7 @@ class Trie:
 
 # Tạo cây Trie và thêm từ
 trie = Trie()
-word_list = ["cat", "banana", "obama", "car", "cow", "alibaba", "bana"]
+word_list = ["cat", "banana", "obama", "car", "cow", "alibaba"]
 for word in word_list:
     trie.insert(word)
 
